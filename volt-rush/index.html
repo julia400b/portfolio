@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Volt Rush — концептуальный лендинг для бренда городских электровелосипедов.">
+  <title>Volt Rush — городской электровелосипед</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#hero">
+      <span class="brand-mark"></span>
+      <span>Volt Rush</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="#specs">Характеристики</a>
+      <a href="#ride">Режимы</a>
+      <a href="#move">Старт</a>
+    </nav>
+
+    <a class="header-link" href="#move">Предзаказ</a>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Городской электровелосипед</p>
+        <h1>Быстрый старт. Чистый силуэт.</h1>
+        <p class="lead">Создан для тех, кому нужны тяга, запас хода и силуэт, который выглядит собранно даже на парковке.</p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#specs">Характеристики</a>
+          <a class="button button-secondary" href="#ride">Ощущения в езде</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>запас хода 95 км</span>
+          <span>среднеприводный мотор</span>
+          <span>быстрая зарядка 2,9 ч</span>
+        </div>
+      </div>
+
+      <div class="hero-machine" aria-hidden="true">
+        <div class="speed-band speed-band-a depth" style="--depth: 0.18;"></div>
+        <div class="speed-band speed-band-b depth" style="--depth: 0.12;"></div>
+
+        <div class="bike depth" style="--depth: 0.08;">
+          <div class="wheel wheel-left"></div>
+          <div class="wheel wheel-right"></div>
+          <div class="frame top-tube"></div>
+          <div class="frame down-tube"></div>
+          <div class="frame seat-tube"></div>
+          <div class="frame chain-stay"></div>
+          <div class="frame fork"></div>
+          <div class="frame handle"></div>
+        </div>
+
+        <div class="hero-stamp depth" style="--depth: 0.22;">
+          <strong>34</strong>
+          <span>Нм стартовой тяги</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="specs section" id="specs">
+      <div class="section-head reveal">
+        <p class="eyebrow">Характеристики</p>
+        <h2>Все важное настроено вокруг городского ускорения, а не лишнего веса и объема.</h2>
+      </div>
+
+      <div class="spec-lines">
+        <article class="spec-line reveal">
+          <span>01</span>
+          <h3>Моментальный отклик</h3>
+          <p>Подхват приходит быстро на старте со светофора, но остается стабильным, когда улица раскрывается.</p>
+        </article>
+
+        <article class="spec-line reveal">
+          <span>02</span>
+          <h3>Интегрированная батарея</h3>
+          <p>Рама прячет батарею внутрь, поэтому велосипед воспринимается как спортивная техника, а не как гаджет.</p>
+        </article>
+
+        <article class="spec-line reveal">
+          <span>03</span>
+          <h3>Видимость ночью</h3>
+          <p>Интегрированный свет и отражающие боковины сохраняют читаемый силуэт после наступления темноты.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="ride section-dark" id="ride">
+      <div class="ride-layout">
+        <div class="ride-copy reveal">
+          <p class="eyebrow eyebrow-dark">Ощущение в езде</p>
+          <h2>Достаточно легкий для плотного трафика и достаточно собранный для длинного маршрута домой.</h2>
+        </div>
+
+        <div class="ride-track">
+          <article class="track-row reveal">
+            <strong>Городской режим</strong>
+            <p>Сбалансированная поддержка для улиц со светофорами, мокрых утренних дорог и узких велополос.</p>
+          </article>
+
+          <article class="track-row reveal">
+            <strong>Спринт-режим</strong>
+            <p>Более резкая настройка старта для мостов, открытых проспектов и поздних ночных поездок.</p>
+          </article>
+
+          <article class="track-row reveal">
+            <strong>Эко-режим</strong>
+            <p>Мягкая поддержка и экономичный расход батареи, когда маршрут удлиняется, а темп становится ровнее.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="move section" id="move">
+      <div class="move-wrap reveal">
+        <p class="eyebrow">Старт</p>
+        <h2>Сделан для тех, кто хочет, чтобы город ощущался меньше.</h2>
+        <p class="lead">Volt Rush оставляет раму графичной, управление минимальным, а производительность именно там, где она нужна.</p>
+        <a class="button button-primary" href="#hero">Вернуться к началу</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
